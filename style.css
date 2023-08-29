@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    position: relative;
+    color: dodgerblue;
+    font-family: Verdana;
+    background: aliceblue;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1, h2, article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    font-size: 10px;
+    bottom: 0
+}
+
+h2 input {
+    color: dodgerblue;
+    width: 50px;
+    height: 20px;
+    border: transparent;
+    font-size: 20px;
+    text-align: center;
+    resize: vertical;
+}
+
+.colorBox {
+    display: flex;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBox {
+    position: relative;
+    width: 200px;
+    height: 240px;
+    background: dodgerblue;
+}
+
+.resultBox {
+    position: absolute;
+    top: 15px;
+    color: white;
+    width: 150px;
+    height: 35px;
+    background: lightgray;
+}
+
+.numberBox {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: black;
+    background: white;
+    font-size: 50px;
+}
+
+.inputBox {
+    position: absolute;
+    bottom: 20px;
+}
+
+.numberField {
+    position: absolute;
+    bottom: 5px;
+    width: 150px;
+    height: 20px;
+}
+
+.enter {
+    background: yellow;
+    position: absolute;
+    bottom: -35px;
+    width: 80px;
+    height: 30px;
+}
+
