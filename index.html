@@ -6,18 +6,25 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MySite</title>
+    <script src="logic.js"></script>
 </head>
 <body>
     <h1>Guess the number</h1>
+    <h2>Write a number between
+        <label for="min"></label><input type="number" placeholder="number" id="min" value="1">
+        and
+        <label for="max"></label><input type="number" placeholder="number" id="max" value="10">
+    </h2>
     <div id="numberBox">
-        <h2>Write a number between
-            <input type="number" placeholder="number" id="min" value="1">
-            and
-            <input type="number" placeholder="number" id="max" value="10">
-        </h2>
+        <div id="resultBox">
+            <output id="resultText"></output>
+        </div>
+        <div id="numberOutput">
+            <output id="randomNumber"></output>
+        </div>
         <form action="">
             <label for="userNumber"></label><input type="number" placeholder="number" id="userNumber">
-            <input type="button" value="Enter" onclick="">
+            <input type="button" value="Enter" onclick="CompareNumbers()">
         </form>
     </div>
 </body>
