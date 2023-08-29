@@ -76,6 +76,7 @@ h2 input {
     bottom: 5px;
     width: 150px;
     height: 20px;
+    text-align: center;
 }
 
 .enter {
